@@ -117,7 +117,7 @@ accuracy = test_logistic_regression(test_x, test_y, freqs, theta)
 print(f"Model accuracy: {accuracy:.4f}")
 
 # Step 8: Test with custom examples
-my_tweet = "Wow! This product is amazing"
+my_tweet = "This is very bad. But this is way better, very good!"
 print(f"Processed tweet: {process_tweet(my_tweet)}")
 
 for word in process_tweet(my_tweet):
