@@ -44,15 +44,15 @@ NumPy
 
 # **Installation**
 
-Clone the repository:
+1. Clone the repository:
 
 git clone https://github.com/BuyTee/log-reg-analysis-tonality.git
 
-Install the required packages:
+2. Install the required packages:
 
 pip install -r requirements.txt
 
-Download the NLTK data:
+3. Download the NLTK data:
 
 import nltk
 nltk.download('stopwords')
@@ -80,13 +80,13 @@ python sentiment_analysis.py
 
 # **Example output:**
 
-Model accuracy: 0.6832
-Processed tweet: ['bad', 'way', 'better', 'good']
-Word: bad, Positive freq: 23, Negative freq: 176
-Word: way, Positive freq: 153, Negative freq: 113
-Word: better, Positive freq: 51, Negative freq: 81
-Word: good, Positive freq: 157, Negative freq: 148
-Custom tweet prediction: 0.3277 - Negative
+> Model accuracy: 0.6832
+  Processed tweet: ['bad', 'way', 'better', 'good']
+  Word: bad, Positive freq: 23, Negative freq: 176
+  Word: way, Positive freq: 153, Negative freq: 113
+  Word: better, Positive freq: 51, Negative freq: 81
+  Word: good, Positive freq: 157, Negative freq: 148
+  Custom tweet prediction: 0.3277 - Negative
 
 
 
