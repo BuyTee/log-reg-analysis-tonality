@@ -46,7 +46,7 @@ NumPy
 
 Clone the repository:
 
-git clone https://github.com/BuyTee/sentiment-analysis-logistic-regression.git
+git clone https://github.com/BuyTee/log-reg-analysis-tonality.git
 
 Install the required packages:
 
