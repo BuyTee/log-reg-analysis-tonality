@@ -81,12 +81,12 @@ python sentiment_analysis.py
 # **Example output:**
 
 > Model accuracy: 0.6832
-  Processed tweet: ['bad', 'way', 'better', 'good']
-  Word: bad, Positive freq: 23, Negative freq: 176
-  Word: way, Positive freq: 153, Negative freq: 113
-  Word: better, Positive freq: 51, Negative freq: 81
-  Word: good, Positive freq: 157, Negative freq: 148
-  Custom tweet prediction: 0.3277 - Negative
+> Processed tweet: ['bad', 'way', 'better', 'good']
+> Word: bad, Positive freq: 23, Negative freq: 176
+> Word: way, Positive freq: 153, Negative freq: 113
+> Word: better, Positive freq: 51, Negative freq: 81
+> Word: good, Positive freq: 157, Negative freq: 148
+> Custom tweet prediction: 0.3277 - Negative
 
 
 
