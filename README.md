@@ -1,8 +1,8 @@
-Sentiment Analysis with Logistic Regression
+**Sentiment Analysis with Logistic Regression**
 
 This repository contains a Python implementation of a sentiment analysis model using logistic regression. The model classifies text data as either positive or negative sentiment based on word frequencies.
 
-Features
+**Features**
 
 Data Loading:
 
@@ -28,7 +28,7 @@ Custom Predictions:
 
 Allows testing the model on custom examples.
 
-Requirements
+**Requirements**
 
 Python 3.6+
 
@@ -36,7 +36,7 @@ NLTK
 
 NumPy
 
-Installation
+**Installation**
 
 Clone the repository:
 
@@ -52,7 +52,7 @@ import nltk
 nltk.download('stopwords')
 nltk.download('punkt')
 
-Dataset
+**Dataset**
 
 The code uses the Sentiment Polarity Dataset Version 1.0, included in the NLTK library. Ensure the following files are available:
 
@@ -60,13 +60,13 @@ sentence_polarity/rt-polarity.pos: Positive text samples.
 
 sentence_polarity/rt-polarity.neg: Negative text samples.
 
-Usage
+**Usage**
 
 Run the script:
 
 python sentiment_analysis.py
 
-Example output:
+**Example output:**
 
 Model accuracy: 0.6832
 Processed tweet: ['wow', 'product', 'amaz']
@@ -75,7 +75,7 @@ Word: product, Positive freq: 17, Negative freq: 35
 Word: amaz, Positive freq: 17, Negative freq: 3
 Custom tweet prediction: 0.4978 - Negative
 
-Key Functions
+**Key Functions**
 
 process_tweet: Cleans and preprocesses text data.
 
@@ -87,27 +87,27 @@ predict_tweet: Predicts sentiment for a given text sample.
 
 test_logistic_regression: Evaluates model performance on test data.
 
-Customization
+**Customization**
 
 Modify alpha (learning rate) and iterations in the script to tune the model.
 
 Test the model with custom text samples by editing the my_tweet variable.
-
-Limitations
+    
+**Limitations**
 
 The model is based on word frequencies and does not use advanced NLP techniques like embeddings.
 
 Stemming may lead to loss of contextual meaning.
 
-Contribution
+**Contribution**
 
 Feel free to contribute by submitting issues or pull requests. Suggestions for improvements, such as using TF-IDF or neural networks, are welcome.
 
-License
+**License**
 
 This project is licensed under the MIT License. See the LICENSE file for details.
 
-Acknowledgments
+**Acknowledgments**
 
 The dataset is part of the Sentiment Polarity Dataset Version 1.0, included in NLTK.
 
