@@ -102,39 +102,3 @@ predict_tweet: Predicts sentiment for a given text sample.
 
 test_logistic_regression: Evaluates model performance on test data.
 
-
-
-# **Customization**
-
-Modify alpha (learning rate) and iterations in the script to tune the model.
-
-Test the model with custom text samples by editing the my_tweet variable.
-
-
-    
-# **Limitations**
-
-The model is based on word frequencies and does not use advanced NLP techniques like embeddings.
-
-Stemming may lead to loss of contextual meaning.
-
-
-
-# **Contribution**
-
-Feel free to contribute by submitting issues or pull requests. Suggestions for improvements, such as using TF-IDF or neural networks, are welcome.
-
-
-
-# **License**
-
-This project is licensed under the MIT License. See the LICENSE file for details.
-
-
-
-# **Acknowledgments**
-
-The dataset is part of the Sentiment Polarity Dataset Version 1.0, included in NLTK.
-
-NLTK and NumPy libraries for text preprocessing and numerical computations.
-
