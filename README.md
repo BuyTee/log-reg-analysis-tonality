@@ -6,27 +6,27 @@ This repository contains a Python implementation of a sentiment analysis model u
 
 # **Features**
 
-Data Loading:
+<ins> Data Loading: </ins>
 
 Reads positive and negative text samples from the sentence_polarity dataset.
 
-Text Preprocessing:
+<ins> Text Preprocessing: </ins>
 
 Tokenization, removal of stop words, and stemming of words.
 
-Frequency Dictionary:
+<ins> Frequency Dictionary: </ins>
 
 Builds a frequency dictionary mapping word occurrences to positive and negative sentiment classes.
 
-Logistic Regression:
+<ins> Logistic Regression: </ins>
 
 Implements logistic regression with gradient descent for classification.
 
-Model Training and Evaluation:
+<ins> Model Training and Evaluation: </ins>
 
 Trains the model on the training set and evaluates it on a separate test set.
 
-Custom Predictions:
+<ins> Custom Predictions: </ins>
 
 Allows testing the model on custom examples.
 
